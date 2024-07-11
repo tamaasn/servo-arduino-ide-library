@@ -3,8 +3,6 @@ class Servo{
     void use_pin(int pin);
     void write(unsigned int angle);
     int CurrentPin;
-    void Set_MinPulseWidth(int min);
-    void Set_MaxPulseWidth(int max);
     int MinPulseWidth=544;
     int MaxPulseWidth=2400;
 };
